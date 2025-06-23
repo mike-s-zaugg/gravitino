@@ -272,6 +272,7 @@ public class CatalogHiveIT extends BaseIT {
     GravitinoMetalake loadMetalake = client.loadMetalake(metalakeName);
     Assertions.assertEquals(metalakeName, loadMetalake.name());
 
+    // Trigger test
     metalake = loadMetalake;
   }
 
